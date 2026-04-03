@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 font-sans antialiased;
+  }
+
+  .dark body {
+    @apply bg-black text-white;
+  }
+
+  select {
+    width: 10rem !important;
+    background-color: #c3f0c6 !important;
+    border: #b2eeac 2px solid !important;
+  }
+
+  select>option {
+    background-color: #b8e1ba !important;
+  }
+
+  select>option:checked {
+    background-color: #b8e1ba !important;
+  }
+
+  select>option:hover {
+    background-color: #b8e1ba !important;
+  }
+
+  select>option:focus {
+    background-color: #b8e1ba !important;
+  }
+
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
