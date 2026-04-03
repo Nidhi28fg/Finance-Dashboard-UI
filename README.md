@@ -41,10 +41,6 @@ src
 
 ## Setup Instructions
 
-### Prerequisites
-- Node.js (>= 18.x)
-- NPM or Yarn
-
 ### Installation
 
 1. **Clone the repository and install dependencies**
